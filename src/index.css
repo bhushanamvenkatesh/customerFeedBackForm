@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+*{
+  box-shadow: border-box;
+}
+
+.courses-container{
+  text-align: left;
+  color: black;
+}
+.mode{
+  color: black;
+}
+
+.form-container{
+  background-color: rgb(245, 247, 249);
+  height: 91vh;
+  /* border: 1px solid red; */
+
+}
+
+.courses-container input{
+  margin: 5px;
+}
+
+.enquiry-section{
+  color: #007aff;
+}
+.feedback-section{
+  color: #007aff;
+}
+
+
+.logo{
+  height: 25px;
+}
+
+.error-msg{
+  color:red;
+}
+
+h5{
+  margin-bottom: 20px;
+}
+
+.table{
+  border: 2px solid green;
+  padding: 5px;
+
+
+}
+.search-container{
+  margin: 15px;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+}
+.enquiries-button{
+  color:white;
+  text-decoration: none;
+ 
+}
+.save-button-container button{
+  width: 100px;
+  /* border: 1px solid red; */
+}
+.filter-container{
+  width: 20vw;
+}
